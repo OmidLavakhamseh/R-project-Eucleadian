@@ -1,0 +1,19 @@
+Package: packtest2
+Type: Package
+Title: My first package
+Version: 4.1.1
+Date: 2022-09-03
+Author: person("omid", "lavakhamseh", email = "o.lavakhamseh@gmail.com",
+                  role = c("aut", "cre"))
+Maintainer: Omid Lavakhamseh <o.lavakhamseh@gmail.com>
+Description: euclidean and dijkstra 
+License: GPL-2
+RoxygenNote: 7.1.2
+Encoding: UTF-8
+language: r
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    igraph
